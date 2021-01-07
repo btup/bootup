@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const execa = require("execa");
 const Listr = require("listr");
 const chalk = require("chalk");
