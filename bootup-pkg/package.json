@@ -1,0 +1,35 @@
+{
+  "name": "@btup/bootup",
+  "version": "0.1.0",
+  "description": "The ultimate all-in-one command for open source contributors.",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "bootup": "./index.js"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint index.js",
+    "prettier": "prettier --write ."
+  },
+  "keywords": [
+    "bootup"
+  ],
+  "author": "Emmett Kelleher",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "execa": "^5.0.0",
+    "listr": "^0.14.3",
+    "minimist": "^1.2.5",
+    "please-upgrade-node": "^3.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "prettier": "2.2.1"
+  }
+}
