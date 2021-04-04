@@ -1,0 +1,16 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "message": {
+      "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND"
+    },
+    "err": {
+      "name": "Error",
+      "message": "No package.json (or package.yaml, or package.json5) was found in \"/Users/emmettkelleher/bootup\".",
+      "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+      "stack": "Error: No package.json (or package.yaml, or package.json5) was found in \"/Users/emmettkelleher/bootup\".\n    at Object.readProjectManifest [as default] (/usr/local/lib/node_modules/pnpm/dist/pnpm.js:43153:11)\n    at async Object.readProjectManifest (/usr/local/lib/node_modules/pnpm/dist/pnpm.js:43366:56)\n    at async fakeRegularManifest (/usr/local/lib/node_modules/pnpm/dist/pnpm.js:118503:56)\n    at async Object.handler [as publish] (/usr/local/lib/node_modules/pnpm/dist/pnpm.js:118454:5)\n    at async Timeout._onTimeout (/usr/local/lib/node_modules/pnpm/dist/pnpm.js:123358:22)"
+    }
+  }
+}
